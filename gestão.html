@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle Financeiro</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header>
+
+  </header>
+
+  <nav>
+
+    <ul>
+
+      <li><a href="./index.html">Início</a></li>
+      <li><a href="./guia.html">Guia de Uso</a></li>
+      <li><a href="./dicas.html">Dicas e Recomendações</a></li>
+      <li><a href="./gestão.html">Gestão Financeira</a></li>
+
+    </ul>
+
+  </nav>
+
+  <!--Tabela de dados-->
+
+  <div class="container-financeiro">
+
+    <div class="container-dados">
+      <input type="text" id="descricao" nome="descricao" placeholder="Descrição da transação">
+      <input type="number" id="amount" name="amount" placeholder="Valor da transação">
+      <button class="add-btn">Adicionar</button>
+    </div>
+
+    <div class="dados">
+
+      <div class="dados-itens">
+
+        <h2 class="titulo-dados-red">Vencidos</h2>
+        <p class="info-valor">R$0.00</p>
+
+      </div>
+
+      <div class="dados-itens">
+
+        <h2 class="titulo-dados-yellow">Vencem Hoje</h2>
+        <p class="info-valor">R$0.00</p>
+
+      </div>
+
+      <div class="dados-itens">
+
+        <h2 class="titulo-dados-gray">A Vencer</h2>
+        <p class="info-valor">R$0.00</p>
+
+      </div>
+
+      <div class="dados-itens">
+
+        <h2 class="titulo-dados-green">Entradas</h2>
+        <p class="info-valor">R$0.00</p>
+
+      </div>
+
+      <div class="dados-itens">
+
+        <h2 class="titulo-dados-orange">Saídas</h2>
+        <p class="info-valor">R$0.00</p>
+
+      </div>
+
+
+      <div class="dados-itens">
+
+        <h2 class="titulo-dados-blue">Total</h2>
+        <p class="info-valor">R$0.00</p>
+
+      </div>
+
+
+
+    </div>
+    <div class="transacoes">
+
+      <h2 class="titulo-info-tr">Transações</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Descrição</th>
+            <th>Tipo</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+
+      </table>
+
+    </div>
+  </div>
+
+  <footer>
+    &copy;2024 Financeiro Pessoal
+  </footer>
+
+</body>
+
+</html>
